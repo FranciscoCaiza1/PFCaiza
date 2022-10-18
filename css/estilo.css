@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: droid-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;} 
+
+#grad{
+    background-image: linear-gradient(red, yellow);
+}
+
+body{
+    font-family: 'Bungee Spice', cursive;
+}
+header{
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 1fr 1fr ;
+    font-size: 45px;
+    background-color:#621708;
+}
+header h1{
+    display: grid;
+    justify-self:start;
+    padding: 70px 0 0 0;
+}
+header img{
+    justify-self:normal;
+    border-radius: 50%;
+    margin: 40px;
+    transform: rotate(22deg);
+} 
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    justify-content:center;
+    background-color: aqua;
+}
+header nav{
+    justify-self: start;
+    font-size: 20px;}
+
+header nav ul li a{
+    display: flexbox;
+    }
+
+header nav ul li a:hover{
+    background: black;
+}
+nav{
+    display: flex;
+    flex-direction: wrap;
+}
+.menu-de-nav{
+    display: grid ;
+    justify-content: center;}
+
+section {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px solid rgb(136, 214, 185); */
+   justify-items: center; }
+
+section img {
+    max-width: 290px ;
+    border-radius: 10px;
+    margin: 70px;
+    height: 200px;
+    width: 200px;
+    transition: all 4s;}
+
+section img:hover{
+    height: 300px;
+    width: 300px;
+}
+
+footer img{
+    max-width: 290px ;
+    border-radius: 10px;
+    margin: 70px;}
+
+footer{
+   height: 60px;
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr;
+   background-color:#621708;
+}        
+footer p{
+   justify-self:right;
+}
+.facebook {
+   position: relative;
+   bottom: 60px;
+}
+.twiter{position: relative;
+   bottom: 60px;}
+
+.comida {
+    background-color: antiquewhite;
+    display: grid;   
+}
+.comida p {
+    margin-top:100px;}
+main{
+    font-family: 'Bungee Spice', cursive;
+    }
+.comida{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
