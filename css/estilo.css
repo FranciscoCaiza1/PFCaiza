@@ -27,7 +27,7 @@ time, mark, audio, video {
   font-weight: 400;
   font-style: normal;} 
 
-  #grad {
+#grad {
     background-image: linear-gradient(red, yellow);
     width: 100%;
     max-width: 1500px;
@@ -118,14 +118,17 @@ footer img {
 }
 
 footer {
-    height: 60px;
+    position: static;
+    bottom: 0;   
+    height: 100%;
     display: grid;
     grid-template-columns: 5fr 1fr 1fr;
     background-color: #621708;
 }
 
 footer p {
-    justify-self: right;
+    justify-self: end;
+    align-self: center;
 }
 
 .facebook {
@@ -167,16 +170,13 @@ form {
     margin: 50px;
 }
 
-@media screen and (max-width:340px) {
+@media screen and (max-width:576px) {
     header{
         width: 100%;
     grid-template-columns: 1fr;
     background-color: black;
     font-size: 1rem;}
-    section{grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr;}
 }
-
 .grande {
     width: 250px;
     height: 170px;}
