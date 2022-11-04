@@ -1,1 +1,6 @@
-h1{font-size: 60px;}
+$titulos:3rem;
+$subtitulos:24px;
+
+
+h1{font-size: $titulos;}
+text{font-size: $subtitulos;}
