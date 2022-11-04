@@ -4,3 +4,11 @@ $subtitulos:24px;
 
 h1{font-size: $titulos;}
 text{font-size: $subtitulos;}
+
+body img{
+    transform: rotate(360deg);
+}
+img{transition: all 2s;}
+img:hover{
+    padding: 20%;
+}
