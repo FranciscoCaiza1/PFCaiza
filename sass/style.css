@@ -4,4 +4,21 @@ h1 {
 
 text {
   font-size: 24px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+img{
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+@keyframes aparecer {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@media screen and (max-width:576px) {
+  header{
+      grid-template-columns: 1fr;
+      font-size: 2rem;}
+  section{grid-template-columns: 1fr;}
+  header img{margin: 0 0 0 70px}

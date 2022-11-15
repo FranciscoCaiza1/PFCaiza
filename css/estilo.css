@@ -1,1 +1,9 @@
 *{background-color: black;}
+
+
+@media screen and (max-width:576px)
+    header{
+        grid-template-columns: 1fr;
+        font-size: 2rem;}
+    section{grid-template-columns: 1fr;}
+    header img{margin: 0 0 0 70px}
